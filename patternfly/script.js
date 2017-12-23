@@ -32,4 +32,4 @@ angular.module('patternfly.navigation').controller('applicationLauncherControlle
     $scope.isDisabled = false;
     $scope.isList = false;
     $scope.hiddenIcons = 'false';
-  }]);
+}]);
