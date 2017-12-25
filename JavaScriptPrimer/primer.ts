@@ -1,5 +1,7 @@
-let messageFunction = function ( weather) {
-    let message = `It is  ${weather} today`;
-    console.log(message)
-}
-messageFunction( "raining")
+let myData = {
+    name: "Adam",
+    weather:"sunny"
+};
+
+console.log(`Hello ${myData.name} .`);
+console.log(`Today is  ${myData.weather}.`);
