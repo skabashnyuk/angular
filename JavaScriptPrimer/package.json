@@ -14,7 +14,7 @@
     "scripts": {
         "start": " concurrently \"npm run tscwatch\" \"npm run lite\" ",
         "tsc": "tsc",
-        "tscwatch": "rsc -w",
+        "tscwatch": "tsc -w",
         "lite": "lite-server",
         "typings": "typings"
     }
