@@ -1,4 +1,6 @@
 export class Name {
+    first: string;
+    second: string;
     constructor(first, second){
         this.first = first;
         this.second = second;
@@ -8,6 +10,8 @@ export class Name {
     }
 }
 export class WeatherLocation {
+    weather: string;
+    city:string;
     constructor(weather, city){
         this.weather= weather;
         this.city = city;
