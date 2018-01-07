@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { SportStorePage } from './app.po';
 
-describe('sports-store App', () => {
-  let page: AppPage;
+describe('sport-store App', () => {
+  let page: SportStorePage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new SportStorePage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
