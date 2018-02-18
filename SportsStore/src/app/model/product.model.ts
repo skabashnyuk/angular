@@ -1,12 +1,9 @@
-export class Product {
-constructor (
-    public id?: number,
-    public name?: string,
-    public category?: string,
-    public description?: string,
-    public place?:number
-){
+﻿export class Product {
 
-}
-
+    constructor(
+        public id?: number,
+        public name?: string,
+        public category?: string,
+        public description?: string,
+        public price?: number) { }
 }

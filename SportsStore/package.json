@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm run tscwatch\" \"npm run lite\" \"npm run json\" ",
+    "ng": "ng",
+    "start": "ng serve",
     "tsc": "tsc",
     "tscwatch": "tsc -w",
     "lite": "lite-server",
